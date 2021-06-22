@@ -3,7 +3,7 @@ package model;
 import java.io.Serializable;
 
 public class Student extends Person implements Serializable {
-    /*mã sinh viên, trường, lớp, chuyên ngành, điểm trung bình.*/
+    
     private String idStudent;
     private String nameUniversity;
     private String nameClass;
